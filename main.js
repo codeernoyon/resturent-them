@@ -54,3 +54,24 @@ const decrement = () => {
 bottomArrow.addEventListener('click' , decrement);
 
 
+//////////Animation///////
+const hero = document.querySelector('.hero');
+const header = document.querySelector('.header');
+
+const option ={
+    // root: null,
+    // rootMargin: '-100px',
+    threshold: 1.0
+}
+const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if(!entry.isIntersecting){
+            header.classList.add("active")
+          }else{
+            header.classList.remove("active")
+
+          }
+        });
+}, option);
+
+observer.observe(hero);

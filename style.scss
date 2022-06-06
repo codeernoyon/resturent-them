@@ -124,7 +124,9 @@ span {
     }
   }
 }
-
+.header.active {
+  background: rgba(0, 0, 0, 0.8);
+}
 /////// ====hero section===== ///////
 .hero {
   height: 100vh;
