@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="log">
+            <a href="/">
+              <img src="./img/logo 1.png" alt="" />
+            </a>
+          </div>
+          <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li class="book"><a href="#book">Book a Table</a></li>
+          </ul>
+          <div class="toggle">
+            <div class="style"></div>
+            <div class="style"></div>
+            <div class="style"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero_contetn">
+            <h1>Enjoy the best meal ever with us</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consect etur adip iscing elit. Proin
+              rhoncus urn a dictum neque molestie ultricies.
+            </p>
+            <a href="#book" class="book_btn">Book A Table</a>
+          </div>
+        </div>
+      </section>
+      <!--========== About ==========-->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about__left col-md-9">
+              <div class="top title mb-3">
+                <span> about us </span>
+                <span>RESTAURANT</span>
+              </div>
+              <div class="row mb-4">
+                <p class="text_about col-md-6">
+                  Lorem ipsum dolor sit amet, consect etur adip iscing elit.
+                  Proin rhoncus urn a dictum neque molestie ultricies.
+                </p>
+                <p class="text_about col-md-6">
+                  Lorem ipsum dolor sit amet, consect etur adip iscing elit.
+                  Proin rhoncus urn a dictum neque molestie ultricies.
+                </p>
+              </div>
+              <a href="#book" class="book_btn">Book a Table</a>
+            </div>
+            <div class="about__right col-md-3">
+              <img class="img" src="./img/Group 7.jpg" alt="photo" />
+              <div class="play_btn">
+                <img src="./img/Polygon1.png" alt="photo" />
+              </div>
+            </div>
+          </div>
+          <div class="menu_items d-flex">
+            <div class="item">
+              <img src="./img/Group 8.jpg" alt="" />
+              <span class="title">vegetable</span>
+            </div>
+            <div class="item">
+              <img src="./img/Group 9.jpg" alt="" />
+              <span class="title">meat meal</span>
+            </div>
+            <div class="item">
+              <img src="./img/Group 10.jpg" alt="" />
+              <span class="title">cheese</span>
+            </div>
+            <div class="item">
+              <img src="./img/Group 11.jpg" alt="" />
+              <span class="title">Prawn curry</span>
+            </div>
+          </div>
+        </div>
+        <div class="popUp_video">
+          <iframe
+            id="popUp_content"
+            width="727"
+            height="409"
+            src="https://www.youtube.com/embed/rQblUItn-m8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!--========== Reserve ==========-->
+      <section class="reserve" id="reserve">
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="warper d-flex">
+            <div class="letf">
+              <span class="top_text"> reserve </span>
+              <span class="title_text">Book A Table</span>
+            </div>
+            <div class="middle">
+              <span class="text">SET DATE :</span>
+            </div>
+            <div class="right">
+              <span class="text">GUESTS :</span>
+              <div class="counter">
+                <p class="number"></p>
+                <div class="btns">
+                  <span class="top_arrow">
+                    <img
+                      src="./img/icons8-collapse-arrow-64.png"
+                      alt="topArrow"
+                    />
+                  </span>
+                  <span class="bottom_arrow">
+                    <img
+                      src="./img/icons8-expand-arrow-64.png"
+                      alt="bottomArrow"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <a href="#book" class="book_btn">Book a Table</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--========== Gallery ==========-->
+      <section class="gallery" id="gallery">
+        <div class="container">
+          <div class="warpper">
+            <div class="top_content">
+              <span>Best Menus</span>
+              <h2>gallery</h2>
+            </div>
+            <div class="items">
+              <div class="item item1 varticle3 horizontal4"></div>
+              <div class="item item2 horizontal5 varticle4"></div>
+              <div class="item item3 horizontal2 varticle4"></div>
+              <div class="item item4 horizontal2 varticle2"></div>
+              <div class="item item5 horizontal2 varticle2"></div>
+              <div class="item item6 varticle3 horizontal4"></div>
+              <div class="item item7 horizontal4 varticle4"></div>
+              <div class="item item8 horizontal3 varticle2"></div>
+              <div class="item item9 varticle2"></div>
+              <div class="item item10 horizontal2 varticle2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- //////footer//////// -->
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="warper">
+          <div class="left">
+            <span class="title">STAY TUNED</span>
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+              eu libero elit.
+            </p>
+            <div class="icons">
+              <div class="pinterset icon">
+                <i class="fa-brands fa-pinterest-p"></i>
+              </div>
+              <div class="facebook icon">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="instagram icon">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="twitter icon">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+          <div class="middle">
+            <div class="logo">
+              <img src="./img/logo 1.png" alt="logo" class="img" />
+            </div>
+            <span class="gmail">info@ruedesiam.com </span>
+            <span class="mobile"> +12 546 987 233</span>
+          </div>
+          <div class="right">
+            <span class="title">newsletter</span>
+            <div class="input">
+              <input type="text" placeholder="Enter Email" />
+              <span class="icon"><i class="fa-solid fa-paper-plane"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/107953a3bd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
